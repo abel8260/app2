@@ -1,0 +1,101 @@
+{
+  // These tasks will run in order when initializing your CodeSandbox project.
+  "setupTasks": [
+    {
+      "name": "Install Dependencies",
+      "command": "npm install"
+    },
+    {
+      "command": "npx create-react-app my-app",
+      "name": "npx create-react-app my-app"
+    },
+    {
+      "command": "cd my-app",
+      "name": "cd my-app"
+    }
+  ],
+
+  // These tasks can be run from CodeSandbox. Running one will open a log in the app.
+  "tasks": {
+    "build": {
+      "name": "build",
+      "command": "npm run build",
+      "runAtStart": false
+    },
+    "changelog": {
+      "name": "changelog",
+      "command": "npm run changelog",
+      "runAtStart": false
+    },
+    "create-react-app": {
+      "name": "create-react-app",
+      "command": "npm run create-react-app",
+      "runAtStart": false
+    },
+    "e2e": {
+      "name": "e2e",
+      "command": "npm run e2e",
+      "runAtStart": false
+    },
+    "e2e:docker": {
+      "name": "e2e:docker",
+      "command": "npm run e2e:docker",
+      "runAtStart": false
+    },
+    "postinstall": {
+      "name": "postinstall",
+      "command": "npm run postinstall",
+      "runAtStart": false
+    },
+    "publish": {
+      "name": "publish",
+      "command": "npm run publish",
+      "runAtStart": false
+    },
+    "start": {
+      "name": "start",
+      "command": "npm run start",
+      "runAtStart": true
+    },
+    "screencast": {
+      "name": "screencast",
+      "command": "npm run screencast",
+      "runAtStart": false
+    },
+    "screencast:error": {
+      "name": "screencast:error",
+      "command": "npm run screencast:error",
+      "runAtStart": false
+    },
+    "alex": {
+      "name": "alex",
+      "command": "npm run alex",
+      "runAtStart": false
+    },
+    "test:integration": {
+      "name": "test:integration",
+      "command": "npm run test:integration",
+      "runAtStart": false
+    },
+    "test": {
+      "name": "test",
+      "command": "npm run test",
+      "runAtStart": false
+    },
+    "eslint": {
+      "name": "eslint",
+      "command": "npm run eslint",
+      "runAtStart": false
+    },
+    "prettier": {
+      "name": "prettier",
+      "command": "npm run prettier",
+      "runAtStart": false
+    },
+    "format": {
+      "name": "format",
+      "command": "npm run format",
+      "runAtStart": false
+    }
+  }
+}
